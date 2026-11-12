@@ -1,0 +1,10 @@
+
+> wayta-platform@0.1.0 test
+> jest --runInBand
+
+
+Test Suites: 9 passed, 9 total
+Tests:       91 passed, 91 total
+Snapshots:   0 total
+Time:        2.496 s
+Ran all test suites.

@@ -1,0 +1,802 @@
+{
+  "cases": [
+    {
+      "route": "/",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "0-before.png",
+        "0-after.png"
+      ]
+    },
+    {
+      "route": "/login",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "1-before.png",
+        "1-after.png"
+      ]
+    },
+    {
+      "route": "/restaurants",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "2-before.png",
+        "2-after.png"
+      ]
+    },
+    {
+      "route": "/restaurants/new",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "3-before.png",
+        "3-after.png"
+      ]
+    },
+    {
+      "route": "/restaurants/restaurant-1",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "4-before.png",
+        "4-after.png"
+      ]
+    },
+    {
+      "route": "/packages",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "5-before.png",
+        "5-after.png"
+      ]
+    },
+    {
+      "route": "/packages/new",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "6-before.png",
+        "6-after.png"
+      ]
+    },
+    {
+      "route": "/packages/package-1",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "7-before.png",
+        "7-after.png"
+      ]
+    },
+    {
+      "route": "/requests",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "8-before.png",
+        "8-after.png"
+      ]
+    },
+    {
+      "route": "/leads",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "9-before.png",
+        "9-after.png"
+      ]
+    },
+    {
+      "route": "/demos",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "10-before.png",
+        "10-after.png"
+      ]
+    },
+    {
+      "route": "/team",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "11-before.png",
+        "11-after.png"
+      ]
+    },
+    {
+      "route": "/settings",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "12-before.png",
+        "12-after.png"
+      ]
+    },
+    {
+      "route": "/activity",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "13-before.png",
+        "13-after.png"
+      ]
+    },
+    {
+      "route": "/contracts/subscription-1?lang=en",
+      "locale": "en",
+      "theme": "light",
+      "width": 1440,
+      "height": 1000,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "14-before.png",
+        "14-after.png"
+      ]
+    },
+    {
+      "route": "/",
+      "locale": "ar",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "15-before.png",
+        "15-after.png"
+      ]
+    },
+    {
+      "route": "/login",
+      "locale": "ar",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "16-before.png",
+        "16-after.png"
+      ]
+    },
+    {
+      "route": "/restaurants/restaurant-1",
+      "locale": "ar",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "17-before.png",
+        "17-after.png"
+      ]
+    },
+    {
+      "route": "/packages/new",
+      "locale": "ar",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "18-before.png",
+        "18-after.png"
+      ]
+    },
+    {
+      "route": "/requests",
+      "locale": "ar",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "19-before.png",
+        "19-after.png"
+      ]
+    },
+    {
+      "route": "/contracts/subscription-1?lang=ar",
+      "locale": "ar",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "20-before.png",
+        "20-after.png"
+      ]
+    },
+    {
+      "route": "/contracts/subscription-1?lang=ar",
+      "locale": "ar",
+      "theme": "light",
+      "width": 1200,
+      "height": 1000,
+      "print": true,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "21-before.png",
+        "21-after.png"
+      ]
+    },
+    {
+      "route": "/contracts/subscription-1?lang=en",
+      "locale": "en",
+      "theme": "light",
+      "width": 1200,
+      "height": 1000,
+      "issued": true,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "22-before.png",
+        "22-after.png"
+      ]
+    },
+    {
+      "route": "/contracts/subscription-1?lang=en",
+      "locale": "en",
+      "theme": "light",
+      "width": 1200,
+      "height": 1000,
+      "legacy": true,
+      "dom": "PASS",
+      "forms": "PASS",
+      "runtime": "PASS",
+      "screenshots": [
+        "23-before.png",
+        "23-after.png"
+      ]
+    }
+  ],
+  "actions": {
+    "status": "PASS",
+    "requests": [
+      {
+        "path": "/packages",
+        "method": "POST",
+        "body": {
+          "nameAr": "باقة جديدة",
+          "nameEn": "New package",
+          "descriptionAr": null,
+          "descriptionEn": null,
+          "prices": {
+            "egpMonthly": "1234.50",
+            "egpYearly": null,
+            "usdMonthly": null,
+            "usdYearly": null
+          },
+          "offer": null,
+          "templates": {
+            "all": true,
+            "allStandard": false,
+            "selected": []
+          },
+          "features": []
+        }
+      },
+      {
+        "path": "/subscriptions/subscription-1/contract/draft",
+        "method": "PUT",
+        "body": {
+          "revision": 0,
+          "locale": "en",
+          "text": "{\"format\":\"wayta-contract-v2\",\"fields\":{\"title\":\"Edited agreement title\",\"number\":\"WAYTA-2026-0001\",\"date\":\"12 November 2026\",\"provider\":\"Wayta\",\"providerDescription\":\"Digital QR menu platform\",\"client\":\"مطعم الاختبار — Pilot\",\"contactName\":\"مسؤول المطعم\",\"contactPhone\":\"+201000000000\",\"email\":\"owner@example.test\",\"menuUrl\":\"https://pilot.example.test\",\"statement\":\"This agreement records that مطعم الاختبار — Pilot has subscribed to the Wayta service on the \\\"باقة تجريبية\\\" package, billed yearly, for the period from 12 November 2026 to 12 November 2027.\",\"packageName\":\"باقة تجريبية\",\"features\":\"Menu designs\",\"period\":\"yearly\",\"starts\":\"12 November 2026\",\"ends\":\"12 November 2027\",\"serviceStatement\":\"Wayta will provide the service described above to the Client from 12 November 2026 until 12 November 2027.\",\"listPrice\":\"1000.00 EGP\",\"offerLabel\":\"Package offer (10%)\",\"offerAmount\":\"- 100.00 EGP\",\"discount\":\"\",\"total\":\"900.00 EGP\",\"notes\":\"\",\"companyStatement\":\"Wayta is an application by ElmoTech.\",\"waytaUrl\":\"https://waytaapp.com/\",\"elmotechUrl\":\"https://elmotech.it\"}}"
+        }
+      }
+    ]
+  },
+  "auth": [
+    {
+      "status": "unauthenticated",
+      "target": "/login",
+      "hasUnreachable": false
+    },
+    {
+      "status": "unauthenticated",
+      "target": "/login",
+      "hasUnreachable": false
+    },
+    {
+      "status": "unreachable",
+      "target": "/",
+      "hasUnreachable": true
+    },
+    {
+      "status": "unreachable",
+      "target": "/",
+      "hasUnreachable": true
+    }
+  ],
+  "routeInventory": "PASS",
+  "screenshotComparison": [
+    {
+      "case": 0,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "b4c02d7c7538a76d1d0754c9ffb3ab1430a3a11ed9a99908581abdbce8e632b2",
+      "afterSha256": "b4c02d7c7538a76d1d0754c9ffb3ab1430a3a11ed9a99908581abdbce8e632b2"
+    },
+    {
+      "case": 1,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "62c61b92111a550058b453a6ee22ab094ad950dfce8d5a89c355bd25da715908",
+      "afterSha256": "62c61b92111a550058b453a6ee22ab094ad950dfce8d5a89c355bd25da715908"
+    },
+    {
+      "case": 2,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "dbe4edfbf167d634f7d3c31d66780e14650cc7683c969392fe3b1ea156764989",
+      "afterSha256": "dbe4edfbf167d634f7d3c31d66780e14650cc7683c969392fe3b1ea156764989"
+    },
+    {
+      "case": 3,
+      "dimensionsBefore": [
+        1440,
+        1557
+      ],
+      "dimensionsAfter": [
+        1440,
+        1557
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "fc1fcd2e54be35a8e9b50d2acf068997a7a140cfac20e82187622d796b178709",
+      "afterSha256": "fc1fcd2e54be35a8e9b50d2acf068997a7a140cfac20e82187622d796b178709"
+    },
+    {
+      "case": 4,
+      "dimensionsBefore": [
+        1440,
+        2447
+      ],
+      "dimensionsAfter": [
+        1440,
+        2447
+      ],
+      "identicalPixels": false,
+      "changedPixels": 18,
+      "differenceBounds": [
+        303,
+        326,
+        1257,
+        1276
+      ],
+      "beforeSha256": "7f2b5d729f38f00097c9c28513bfc469879f7d81194a4601411d7d84a0c9c9af",
+      "afterSha256": "67bb5c16ba9b7250a95b573b4f390cee729c0db1f2ff067181072e85b0e03478"
+    },
+    {
+      "case": 5,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "1dd6465e2d36dfa94b34b9a2d502c694492f3b2d4ee760951bde87c37f878272",
+      "afterSha256": "1dd6465e2d36dfa94b34b9a2d502c694492f3b2d4ee760951bde87c37f878272"
+    },
+    {
+      "case": 6,
+      "dimensionsBefore": [
+        1440,
+        2054
+      ],
+      "dimensionsAfter": [
+        1440,
+        2054
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "08a7b16fc3d1873e201341dce70eab74d2a18df87427e93f6995f5974cf954e0",
+      "afterSha256": "08a7b16fc3d1873e201341dce70eab74d2a18df87427e93f6995f5974cf954e0"
+    },
+    {
+      "case": 7,
+      "dimensionsBefore": [
+        1440,
+        2442
+      ],
+      "dimensionsAfter": [
+        1440,
+        2442
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "f4b851ddd480a2824bed6a04402620c7dd19241aad8a15e6e25208bc73395ef1",
+      "afterSha256": "f4b851ddd480a2824bed6a04402620c7dd19241aad8a15e6e25208bc73395ef1"
+    },
+    {
+      "case": 8,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "839fb24e73b949be1fff8dd53c1dc04155871957b234f645763a6dc9708b8f12",
+      "afterSha256": "839fb24e73b949be1fff8dd53c1dc04155871957b234f645763a6dc9708b8f12"
+    },
+    {
+      "case": 9,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "81ab69d807098fd7a6364c52abd9fef89a9b56e9ffd28f78ced230287c625807",
+      "afterSha256": "81ab69d807098fd7a6364c52abd9fef89a9b56e9ffd28f78ced230287c625807"
+    },
+    {
+      "case": 10,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "4d029e603276c0d02061498ee76c9691893690e26b48ef9abb40b48ecf351fc1",
+      "afterSha256": "4d029e603276c0d02061498ee76c9691893690e26b48ef9abb40b48ecf351fc1"
+    },
+    {
+      "case": 11,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "e521d3b92b0742a1c14700ce0efef9f3d31200f2596f1a0a0974e2abccf26629",
+      "afterSha256": "e521d3b92b0742a1c14700ce0efef9f3d31200f2596f1a0a0974e2abccf26629"
+    },
+    {
+      "case": 12,
+      "dimensionsBefore": [
+        1440,
+        2036
+      ],
+      "dimensionsAfter": [
+        1440,
+        2036
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "eea8a3ebb8fdda8a9afa67ee192a1fc756ce63120dc5efeed594f6a5f62aee2f",
+      "afterSha256": "eea8a3ebb8fdda8a9afa67ee192a1fc756ce63120dc5efeed594f6a5f62aee2f"
+    },
+    {
+      "case": 13,
+      "dimensionsBefore": [
+        1440,
+        1000
+      ],
+      "dimensionsAfter": [
+        1440,
+        1000
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "76cf7245da39cf3b22a8226fa711a89f015bc5a61fe84f53809259040683b463",
+      "afterSha256": "76cf7245da39cf3b22a8226fa711a89f015bc5a61fe84f53809259040683b463"
+    },
+    {
+      "case": 14,
+      "dimensionsBefore": [
+        1440,
+        3394
+      ],
+      "dimensionsAfter": [
+        1440,
+        3394
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "1ccc89dcd41d9dcfd5e0c96547b55172cb1b170c1e8ee0ba4c2a98cf09630033",
+      "afterSha256": "1ccc89dcd41d9dcfd5e0c96547b55172cb1b170c1e8ee0ba4c2a98cf09630033"
+    },
+    {
+      "case": 15,
+      "dimensionsBefore": [
+        390,
+        2130
+      ],
+      "dimensionsAfter": [
+        390,
+        2130
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "89aa1d93fbb21b497984d18896d97a0f2cad3a418f887861ba6e6fb0401a9c71",
+      "afterSha256": "89aa1d93fbb21b497984d18896d97a0f2cad3a418f887861ba6e6fb0401a9c71"
+    },
+    {
+      "case": 16,
+      "dimensionsBefore": [
+        390,
+        844
+      ],
+      "dimensionsAfter": [
+        390,
+        844
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "97943820f4124892c22f6cffc1a1773897c7e448df630db843aa2131394ceca7",
+      "afterSha256": "97943820f4124892c22f6cffc1a1773897c7e448df630db843aa2131394ceca7"
+    },
+    {
+      "case": 17,
+      "dimensionsBefore": [
+        390,
+        5328
+      ],
+      "dimensionsAfter": [
+        390,
+        5328
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "4facfc312f3a5003e8774ec9add95911cb9d1de534ec817d8b2b957f1ee213bb",
+      "afterSha256": "4facfc312f3a5003e8774ec9add95911cb9d1de534ec817d8b2b957f1ee213bb"
+    },
+    {
+      "case": 18,
+      "dimensionsBefore": [
+        390,
+        2625
+      ],
+      "dimensionsAfter": [
+        390,
+        2625
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "464200ee9662d5b423f0fb5434b7a37074399c47ac0d63b532a966ef3330e928",
+      "afterSha256": "464200ee9662d5b423f0fb5434b7a37074399c47ac0d63b532a966ef3330e928"
+    },
+    {
+      "case": 19,
+      "dimensionsBefore": [
+        390,
+        844
+      ],
+      "dimensionsAfter": [
+        390,
+        844
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "9998fc61e4820cb79cc8aa12502db4b31d89d908e7f3b9928576a7ccc3fbdbfb",
+      "afterSha256": "9998fc61e4820cb79cc8aa12502db4b31d89d908e7f3b9928576a7ccc3fbdbfb"
+    },
+    {
+      "case": 20,
+      "dimensionsBefore": [
+        390,
+        5159
+      ],
+      "dimensionsAfter": [
+        390,
+        5159
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "8357a5256edbef0ac73e0a81665692c2dade2672c53f9e2fdeec5b546b5d72c4",
+      "afterSha256": "8357a5256edbef0ac73e0a81665692c2dade2672c53f9e2fdeec5b546b5d72c4"
+    },
+    {
+      "case": 21,
+      "dimensionsBefore": [
+        1200,
+        1119
+      ],
+      "dimensionsAfter": [
+        1200,
+        1119
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "618766397607d76cc89b8292e8894773818d63111b1177841895db14ee462685",
+      "afterSha256": "618766397607d76cc89b8292e8894773818d63111b1177841895db14ee462685"
+    },
+    {
+      "case": 22,
+      "dimensionsBefore": [
+        1200,
+        1542
+      ],
+      "dimensionsAfter": [
+        1200,
+        1542
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "758fd1bd81d7d3b99a85262c79bfc42677a4e6151059b9906ffae17bdb0d7c2b",
+      "afterSha256": "758fd1bd81d7d3b99a85262c79bfc42677a4e6151059b9906ffae17bdb0d7c2b"
+    },
+    {
+      "case": 23,
+      "dimensionsBefore": [
+        1200,
+        2714
+      ],
+      "dimensionsAfter": [
+        1200,
+        2714
+      ],
+      "identicalPixels": true,
+      "changedPixels": 0,
+      "differenceBounds": null,
+      "beforeSha256": "9b7ac2ba9fe8b464ac67da91d10de95f51cc948bc6f60f6467179c11aeef9cc9",
+      "afterSha256": "9b7ac2ba9fe8b464ac67da91d10de95f51cc948bc6f60f6467179c11aeef9cc9"
+    }
+  ],
+  "summary": {
+    "scenarios": 24,
+    "domAndControlsMatched": 24,
+    "pixelIdenticalScreenshots": 23,
+    "remainingChangedPixels": 18,
+    "screenshotsDirectory": "/private/tmp/wayta-platform-refactor/browser-evidence",
+    "apiMode": "controlled local mock; no live backend/production writes"
+  }
+}

@@ -1,0 +1,15 @@
+✔ Gateway wildcard is opt-in and existing platform host remains exact (0.870458ms)
+✔ Tenant hosts cannot reach Staff APIs, realtime or provider webhooks through Nginx (0.149708ms)
+✔ verde API and web preview use identical settings (0.53925ms)
+✔ makkboz API and web preview use identical settings (0.546292ms)
+✔ sherbiny API and web preview use identical settings (0.190458ms)
+✔ meat-lovers API and web preview use identical settings (0.1335ms)
+✔ BLOOM remains selectable and premium in platform and available in web design (0.491792ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 65.025834

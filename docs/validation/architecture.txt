@@ -1,0 +1,5 @@
+
+> wayta-platform@0.1.0 check:architecture
+> node scripts/check-architecture.mjs
+
+Architecture PASS: 126 source files, 12 domains, no runtime cycles, no reversed boundaries, no client-to-server imports.
