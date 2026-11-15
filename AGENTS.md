@@ -23,3 +23,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## AI workflow entry point
+
+Read [AI.md](AI.md) before implementation. It routes to the repository workflow, domain rules, approved specification map, change-spec template and validation guidance under `docs/ai/`. Preserve the Next-managed instructions above. Apply the user's authorized scope and do not add backend or sibling-repository changes to a frontend task.

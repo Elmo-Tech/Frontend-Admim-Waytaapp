@@ -1,5 +1,7 @@
 # Platform frontend architecture
 
+The original refactor description below is dated 2026-11-12. Current ownership and enforcement qualifications are recorded in the Phase 1 section at the end. Historical change statements describe that refactor, not this documentation pass.
+
 This document describes the standalone `wayta-platform` frontend after the 2026-11-12 refactor.
 The original monorepo and the api/web applications are unchanged. The operations repository has one supporting
 test-path update for the relocated template registry; its assertions are unchanged.
@@ -42,7 +44,7 @@ which are consumed only by routes. Avoid adding them to client-safe barrels.
 Unit tests may import pure internal helpers to exercise real validation and serialization behavior.
 
 `npm run lint` enforces layer direction and public entries. `npm run check:architecture` also checks the
-complete static/dynamic literal import graph for runtime cycles, client-to-server imports, unresolved internal imports,
+source graph of static imports and dynamic imports with literal specifiers for runtime cycles, client-to-server imports, unresolved internal imports,
 non-routing app source and thick route pages. The same graph check runs in `npm test`.
 
 ## Domain ownership
@@ -85,3 +87,28 @@ invariants, package serialization/validation, contract compatibility, signature 
 Preserve the existing JSX, classes, semantics, Arabic copy and print behavior during future module changes.
 Original business specifications remain in ../operations/docs. This frontend architecture is explicitly authorized by
 the current refactor task and supersedes legacy frontend file-location references in those historical documents.
+
+
+## Phase 1 architecture knowledge map — 2026-11-15
+
+The [domain ownership map](ai/DOMAIN_MAP.md) records all 12 existing domains, their public files, representative internals, API owners, boundaries and test references. Use [the classified specification map](ai/SPEC_MAP.md) for product authority. Source presence and historical implementation reports do not establish approval or deployment.
+
+### Layer and request flow
+
+`src/app` composes routes/layouts and domain implementations; domain views/hooks/helpers own business UI. Modules consume shared `src/components`, `src/lib`, configuration and types. Shared code must not import modules; code outside app must not import app. Browser mutations use existing credentialed transport; server reads use existing server transport and session boundaries. Backend permissions, tenancy, pricing and state transitions remain authoritative.
+
+Platform permits cross-module imports through the module index or the explicit server entry. Internals must not import their own index/server composition entry. Activity separates its client-safe index from server composition; dashboard, auth and contracts retain server-composed reads outside client-safe exports.
+
+### Existing enforcement and its limits
+
+The executable source of boundary policy is [architecture-rules.mjs](../scripts/architecture-rules.mjs); [check-architecture.mjs](../scripts/check-architecture.mjs) walks source imports. Existing `npm run check:architecture`, `npm run lint` and architecture tests are the enforcement mechanisms. No parallel checker is introduced here.
+
+The scanner checks literal import edges, internal resolution, runtime cycles, client-to-server reachability, non-routing app source and route page size (at most 20 newline-split lines, including blanks). Platform excludes explicitly type-only edges; unlike Web, it does not rebuild the graph from emitted JavaScript. This is static evidence: computed import targets, runtime payload semantics, provider behavior and real authorization are outside its proof. Keep server-only implementations/private origins unreachable from client entry graphs; a browser-safe root contract does not make every file in a module client-safe.
+
+### Ownership exceptions and repository independence
+
+Request ownership is evidenced by source, not a rule that every module must have an api directory. See domain entries for direct shared-auth calls, inline requests and server-read composition. Reuse existing transports; do not add wrappers merely to make the documentation uniform.
+
+This frontend owns its package manifest, lockfile, environment and runtime configuration. The parent is not an npm workspace. Operations specifications are read-only sibling knowledge references; there are no cross-repository source imports or shared runtime library. Historical `apps/*` paths in operations describe the former monorepo and do not override the standalone repository decision.
+
+[Governance inventory and gaps](ai/GOVERNANCE_AUDIT.md) and [Phase 1 validation](ai/PHASE1_VALIDATION.md) distinguish observed facts from unresolved evidence. Refactor/stability reports remain dated records; current CI, browser behavior and production were not certified in Phase 1.

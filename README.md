@@ -29,4 +29,8 @@ npm audit --omit=dev
 See [Architecture](docs/ARCHITECTURE.md) for module ownership and dependency rules, and
 [Refactor validation](docs/REFACTOR_VALIDATION.md) for results, browser evidence and remaining development-only advisories.
 Dockerfile builds from this repository root. Original business specifications and shared infrastructure remain in ../operations.
-No commit or remote was created by the refactor.
+The original refactor did not publish a remote. Inspect current Git history and remotes for the present repository state.
+
+## AI-assisted development
+
+Start with [AI.md](AI.md) and [AGENTS.md](AGENTS.md). The [AI workflow](docs/ai/WORKFLOW.md), [domain rules](docs/ai/DOMAIN_RULES.md), [spec map](docs/ai/SPEC_MAP.md), [change-spec template](docs/ai/CHANGE_SPEC_TEMPLATE.md) and [validation guide](docs/ai/VALIDATION.md) apply to AI-assisted changes. Claude, Copilot and Cursor entry files route to the same guidance; other tools can be given AI.md explicitly.
