@@ -9,7 +9,7 @@ import { usePackageEditor } from "../hooks/use-package-editor";
 import { FieldError } from "./FieldError";
 import { PackageFeatureGroup } from "./PackageFeatures";
 export function PackageEditor({ packageId }: { packageId: string | null }) {
-  const { t, fmt, locale, router, creating, pkg, form, failure, busy, notice, problem, fieldErrors, confirmingDelete, setConfirmingDelete, set, setPrice, submit, changeStatus, remove } = usePackageEditor(packageId);
+  const { retryLoad, t, fmt, locale, router, creating, pkg, form, failure, busy, notice, problem, fieldErrors, confirmingDelete, setConfirmingDelete, set, setPrice, submit, changeStatus, remove } = usePackageEditor(packageId);
   const back = (
     <Link href="/packages" className="mb-4 inline-flex items-center gap-2 text-sm text-primary-text hover:underline">
       <IconArrowLeft className="rtl:rotate-180" width={16} height={16} />
@@ -25,7 +25,12 @@ export function PackageEditor({ packageId }: { packageId: string | null }) {
       </>
     );
   }
-  if (failure === "error") return <Alert tone="danger">{t("common.error")}</Alert>;
+  if (failure === "error") return (
+    <div className="space-y-3">
+      <Alert tone="danger">{t("common.error")}</Alert>
+      <Button onClick={retryLoad}>{t("common.retry")}</Button>
+    </div>
+  );
   if (!creating && !pkg) {
     return (
       <div className="space-y-4" aria-busy="true">
